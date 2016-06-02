@@ -1,0 +1,17 @@
+[{
+  "Name": "Mora INN",
+  "Location": "New York",
+  "Amenities": {
+    "Hot Tub": true,
+    "Air Conditioning": true,
+    "Pool": true,
+    "Pet Friendly": false,
+    "Wi-Fi": true,
+    "Cable": true,
+  },
+  "Prices": {
+    "One Bed": "49.99",
+    "Two Beds": "79.99",
+    "Villa": "349.99"
+  }
+}]
