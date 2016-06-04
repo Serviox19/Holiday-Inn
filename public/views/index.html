@@ -7,6 +7,44 @@
 </head>
 <body>
 
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="jumbotron">
+        <h1>Hotels Search</h1>
+        <p>Find Available Hotels!</p>
+      </div>
+    </div>
+  </div><!-- End Row -->
+  <div class="row searchRow">
+    <div class="col-md-12">
+      <form class="form-inline">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Location">
+        </div>
+        <label for="amenities"></label>
+        <!-- <button type="submit" class="btn btn-primary">Submit</button> -->
+        <form>
+          <label for="amenities">Search By Amenities</label>
+          <select name="favoritefood" id="amenities">
+            <option>Pet Friendly</option>
+            <option>Air Conditioning</option>
+            <option>Cable</option>
+          </select>
+      </form>
+      </form>
+    </div>
+  </div><!-- End Row -->
+</div>
+
+<div class="container">
+  <div class="hotels" ng-controller="hotelsController">
+  </div>
+</div>
+
 
 
 <script type="text/javascript" src="../angCtrl/app.js"></script>
