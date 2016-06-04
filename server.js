@@ -12,7 +12,7 @@ app.use("/bower_components", express.static(__dirname + "/bower_components"));
 
 
 app.use('*', function(req, res) {
-  res.sendFile(process.cwd() + "public/views/index.html");
+  res.sendFile(process.cwd() + "/public/views/index.html");
 });
 
 

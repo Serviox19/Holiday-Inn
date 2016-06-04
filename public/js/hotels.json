@@ -7,11 +7,43 @@
     "Pool": true,
     "Pet Friendly": false,
     "Wi-Fi": true,
-    "Cable": true,
+    "Cable": true
   },
   "Prices": {
     "One Bed": "49.99",
     "Two Beds": "79.99",
     "Villa": "349.99"
+  }
+}, {
+  "Name": "Hilton Hotel",
+  "Location": "Los Angeles",
+  "Amenities": {
+    "Hot Tub": false,
+    "Air Conditioning": true,
+    "Pool": false,
+    "Pet Friendly": true,
+    "Wi-Fi": true,
+    "Cable": false
+  },
+  "Prices": {
+    "One Bed": "39.99",
+    "Two Beds": "69.99",
+    "Villa": "499.99"
+  }
+}, {
+  "Name": "Plaza Hotel",
+  "Location": "Chicago",
+  "Amenities": {
+    "Hot Tub": true,
+    "Air Conditioning": false,
+    "Pool": false,
+    "Pet Friendly": false,
+    "Wi-Fi": true,
+    "Cable": true
+  },
+  "Prices": {
+    "One Bed": "29.99",
+    "Two Beds": "59.99",
+    "Villa": "249.99"
   }
 }]
