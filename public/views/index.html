@@ -17,7 +17,7 @@
       </div>
     </div>
   </div><!-- End Row -->
-  <div class="row searchRow">
+  <div class="row" id="searchRow">
     <div class="col-md-12">
       <form class="form-inline">
         <div class="form-group">
@@ -35,26 +35,38 @@
             <option>Air Conditioning</option>
             <option>Cable</option>
           </select>
-      </form>
+        </form>
       </form>
     </div>
   </div><!-- End Row -->
-</div>
-
-<div class="container">
-  <div class="col-md-8 col-md-offset-2">
-    <div class="hotels" ng-controller="hotelsController">
-      <div class="panel panel-info" ng-repeat="hotel in hotels">
-        <div class="panel-heading">
-          <h3 class="panel-title">{{ hotel.Name }}</h3>
-        </div>
-        <div class="panel-body">
-          Panel content
-        </div>
-      </div><!-- End Panel -->
-    </div><!-- End Hotels Div -->
-  </div>
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+      <div class="hotels" ng-controller="hotelsController">
+        <div class="panel panel-info" ng-repeat="hotel in hotels">
+          <div class="panel-heading">
+            <h3 class="panel-title">{{ hotel.Name }}</h3>
+          </div>
+          <div class="panel-body">
+            <div class="media">
+              <div class="media-left media-middle">
+                <a href="#">
+                  <img class="media-object" src="{{ hotel.Image }}">
+                </a>
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">{{ hotel.Location }}</h4>
+                <p class="description">{{ hotel.Description }}</p>
+                <p class="amenities"></p>
+              </div>
+            </div>
+          </div><!-- End Panel Body -->
+        </div><!-- End Panel -->
+      </div><!-- End Hotels Div -->
+    </div>
+  </div><!-- End Row -->
 </div><!-- End Container -->
+
+
 
 
 
