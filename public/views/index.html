@@ -56,7 +56,14 @@
               <div class="media-body">
                 <h4 class="media-heading">{{ hotel.Location }}</h4>
                 <p class="description">{{ hotel.Description }}</p>
-                <p class="amenities"></p>
+                <h5>Amenities Available:</h5><span class="amenities">
+                  <span ng-show="hotel.Amenities.hot-tub">Hot Tub</span>
+                  <span ng-show="hotel.Amenities.a-c">Air Conditioning</span>
+                  <span ng-show="hotel.Amenities.pool">Pool</span>
+                  <span ng-show="hotel.Amenities.pet">Pet Friendly</span>
+                  <span ng-show="hotel.Amenities.wifi">Wi-Fi</span>
+                  <span ng-show="hotel.Amenities.cable">Cable</span>
+                </span>
               </div>
             </div>
           </div><!-- End Panel Body -->

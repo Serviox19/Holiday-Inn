@@ -4,12 +4,12 @@
   "Image": "http://img1.10bestmedia.com/Images/Photos/317860/The-Plaza-Hotel-New-York_54_990x660.jpg",
   "Description": "Great Hotel right in the heart of Times Square. Explore everything The Big Apple has to offer. Many restaurants and places to go and enjoy",
   "Amenities": {
-    "Hot Tub": true,
-    "Air Conditioning": true,
-    "Pool": true,
-    "Pet Friendly": false,
-    "Wi-Fi": true,
-    "Cable": true
+    "hot-tub": true,
+    "a-c": true,
+    "pool": true,
+    "pet": false,
+    "wifi": true,
+    "cable": true
   },
   "Prices": {
     "One Bed": "49.99",
@@ -22,12 +22,12 @@
   "Image": "https://media-cdn.tripadvisor.com/media/photo-o/0b/79/f9/99/exterior.jpg",
   "Description": "One of Hilton's finest hotels in Downtown Los Angeles. Very close to all major downtown attractions.",
   "Amenities": {
-    "Hot Tub": false,
-    "Air Conditioning": true,
-    "Pool": false,
-    "Pet Friendly": true,
-    "Wi-Fi": true,
-    "Cable": false
+    "hot-tub": false,
+    "a-c": true,
+    "pool": true,
+    "pet": "false",
+    "wifi": true,
+    "cable": false
   },
   "Prices": {
     "One Bed": "39.99",
@@ -40,12 +40,12 @@
   "Image": "http://www.starwoodhotels.com/pub/media/40/she40.105928_md.jpg",
   "Description": "Plaza Hotel in Chicago is one of the most iconic hotels in America. Lots of history behind this hotel and the area.",
   "Amenities": {
-    "Hot Tub": true,
-    "Air Conditioning": false,
-    "Pool": false,
-    "Pet Friendly": false,
-    "Wi-Fi": true,
-    "Cable": true
+    "hot-tub": true,
+    "a-c": false,
+    "pool": false,
+    "pet": false,
+    "wifi": true,
+    "cable": false
   },
   "Prices": {
     "One Bed": "29.99",
