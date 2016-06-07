@@ -4,6 +4,7 @@
   <title>Hotel Booking Angular</title>
   <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
   <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="bower_components/font-awesome/css/font-awesome.css">
   <link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 <body>
@@ -57,12 +58,12 @@
                 <h4 class="media-heading">{{ hotel.Location }}</h4>
                 <p class="description">{{ hotel.Description }}</p>
                 <h5>Amenities Available:</h5><span class="amenities">
-                  <span ng-show="hotel.Amenities.hot-tub">Hot Tub</span>
-                  <span ng-show="hotel.Amenities.a-c">Air Conditioning</span>
-                  <span ng-show="hotel.Amenities.pool">Pool</span>
-                  <span ng-show="hotel.Amenities.pet">Pet Friendly</span>
-                  <span ng-show="hotel.Amenities.wifi">Wi-Fi</span>
-                  <span ng-show="hotel.Amenities.cable">Cable</span>
+                  <button class="btn btn-primary" ng-show="hotel.Amenities.hottub">Hot Tub</button>
+                  <button class="btn btn-primary" ng-show="hotel.Amenities.ac">Air Conditioning</button>
+                  <button class="btn btn-primary" ng-show="hotel.Amenities.pool"><i class="fa fa-life-ring fa-lg" aria-hidden="true"></i></button>
+                  <button class="btn btn-primary" ng-show="hotel.Amenities.pet"><i class="fa fa-paw fa-lg" aria-hidden="true"></i></button>
+                  <button class="btn btn-primary" ng-show="hotel.Amenities.wifi"><i class="fa fa-wifi fa-lg" aria-hidden="true"></i></button>
+                  <button class="btn btn-primary" ng-show="hotel.Amenities.cable"><i class="fa fa-television fa-lg" aria-hidden="true"></i></button>
                 </span>
               </div>
             </div>

@@ -1,5 +1,5 @@
 [{
-  "Name": "Mora INN",
+  "Name": "Mora Inn",
   "Location": "New York",
   "Image": "http://img1.10bestmedia.com/Images/Photos/317860/The-Plaza-Hotel-New-York_54_990x660.jpg",
   "Description": "Great Hotel right in the heart of Times Square. Explore everything The Big Apple has to offer. Many restaurants and places to go and enjoy",
@@ -22,8 +22,8 @@
   "Image": "https://media-cdn.tripadvisor.com/media/photo-o/0b/79/f9/99/exterior.jpg",
   "Description": "One of Hilton's finest hotels in Downtown Los Angeles. Very close to all major downtown attractions.",
   "Amenities": {
-    "hot-tub": false,
-    "a-c": true,
+    "hottub": false,
+    "ac": true,
     "pool": true,
     "pet": "false",
     "wifi": true,
@@ -40,8 +40,8 @@
   "Image": "http://www.starwoodhotels.com/pub/media/40/she40.105928_md.jpg",
   "Description": "Plaza Hotel in Chicago is one of the most iconic hotels in America. Lots of history behind this hotel and the area.",
   "Amenities": {
-    "hot-tub": true,
-    "a-c": false,
+    "hottub": true,
+    "ac": false,
     "pool": false,
     "pet": false,
     "wifi": true,
@@ -51,5 +51,23 @@
     "One Bed": "29.99",
     "Two Beds": "59.99",
     "Villa": "249.99"
+  }
+}, {
+  "Name": "Holiday Inn",
+  "Location": "Miami",
+  "Image": "http://www.hotel-r.net/im/hotel/gb/miami-hotel-1.jpg",
+  "Description": "Beautiful ocean view Hotel right off Ocean Dr. This Hotel caters to many tourists in one of Miami's most popular spots.",
+  "Amenities": {
+    "hottub": true,
+    "ac": true,
+    "pool": true,
+    "pet": false,
+    "wifi": true,
+    "cable": true
+  },
+  "Prices": {
+    "One Bed": "69.99",
+    "Two Beds": "129.99",
+    "Villa": "289.99"
   }
 }]
