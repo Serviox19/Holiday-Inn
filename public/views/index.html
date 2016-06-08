@@ -58,12 +58,12 @@
                 <h4 class="media-heading">{{ hotel.Location }}</h4>
                 <p class="description">{{ hotel.Description }}</p>
                 <h5>Amenities Available:</h5><span class="amenities">
-                  <button class="btn btn-primary" ng-show="hotel.Amenities.hottub">Hot Tub</button>
-                  <button class="btn btn-primary" ng-show="hotel.Amenities.ac">Air Conditioning</button>
-                  <button class="btn btn-primary" ng-show="hotel.Amenities.pool"><i class="fa fa-life-ring fa-lg" aria-hidden="true"></i></button>
-                  <button class="btn btn-primary" ng-show="hotel.Amenities.pet"><i class="fa fa-paw fa-lg" aria-hidden="true"></i></button>
-                  <button class="btn btn-primary" ng-show="hotel.Amenities.wifi"><i class="fa fa-wifi fa-lg" aria-hidden="true"></i></button>
-                  <button class="btn btn-primary" ng-show="hotel.Amenities.cable"><i class="fa fa-television fa-lg" aria-hidden="true"></i></button>
+                  <button class="btn btn-primary" disabled ng-show="hotel.Amenities.hottub">Hot Tub</button>
+                  <button class="btn btn-primary" disabled ng-show="hotel.Amenities.ac">Air Conditioning</button>
+                  <button class="btn btn-primary" disabled ng-show="hotel.Amenities.pool"><i class="fa fa-life-ring fa-lg" aria-hidden="true"></i></button>
+                  <button class="btn btn-primary" disabled ng-show="hotel.Amenities.pet"><i class="fa fa-paw fa-lg" aria-hidden="true"></i></button>
+                  <button class="btn btn-primary" disabled ng-show="hotel.Amenities.wifi"><i class="fa fa-wifi fa-lg" aria-hidden="true"></i></button>
+                  <button class="btn btn-primary" disabled ng-show="hotel.Amenities.cable"><i class="fa fa-television fa-lg" aria-hidden="true"></i></button>
                 </span>
               </div>
             </div>
